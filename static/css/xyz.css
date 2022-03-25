@@ -1,0 +1,55 @@
+h1{
+  text-align: center;
+  color: yellow;
+  font-size: 50px;
+}
+img{
+  height: 200px;
+  width: 20%;
+  margin: 2.2%;
+  float: left;
+  border-radius: 10px;
+  border: 5px green solid;
+}
+body{
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp5qgNdNl_MVdlB6XSM1aEAJqhyhH2Sh41hGpgs8cD3TQf0LPHk2ekbQDP75r5LNvwja4&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+tr:nth-of-type(even){
+    background: blue;
+}
+html{
+  height: 100%;
+}
+table{
+  text-align: center;
+}
+thead,th{
+  color:#ffff66;
+  background: #ff0066;
+  margin:auto;
+  font-size: 30px;
+}
+tr,td{
+  color:#ccffcc;
+  background: #6b6b47;
+}
+table {
+ width: 100%;
+}
+
+th {
+ height: 50px;
+}
+tr{
+  height: 50px;
+}
+marquee{
+  font-size:30px;
+  color:#660033;
+  background:#cccc00;
+  margin-top:90px;
+}
