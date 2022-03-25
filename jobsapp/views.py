@@ -1,8 +1,10 @@
+# practing this project in git hub
 from django.shortcuts import render
 from jobsapp.models import *
 
 # Create your views here.
 def homepage_view(request):
+    print("Hello github")
     return render(request,'jobsapp/index.html')
 
 def hydjobs_view(request):
